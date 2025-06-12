@@ -18,23 +18,24 @@ Inspired by Tibia, Ultima Online, and Diablo—but focused on extensibility and 
 
 ## 🧱 Modules
 
-| Repo                        | Description                                      |
-|-----------------------------|--------------------------------------------------|
-| [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)       | Core ECS, tile logic, input handling, render loop  
-| [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)   | Visual game client + UI system  
-| [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)   | Multiplayer backend with state sync and events  
-| [`arcadia-tools`](https://github.com/arcadia-engine/arcadia-tools)     | Map editor, prefab manager, content builder  
-| [`arcadia-demo`](https://github.com/arcadia-engine/arcadia-demo)       | Playable demo world using the full engine stack  
-| [`arcadia-docs`](https://github.com/arcadia-engine/arcadia-docs)       | Dev guides, tutorials, and reference documentation  
-| [`arcadia-planning`](https://github.com/arcadia-engine/arcadia-planning) | Roadmap, devlog, project board, architecture drafts  
+| Repo | Description |
+|------|-------------|
+| [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)       | Core ECS, tile logic, input handling, render loop |
+| [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)   | Visual game client and UI system |
+| [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)   | Server-authoritative multiplayer backend |
+| [`arcadia-tools`](https://github.com/arcadia-engine/arcadia-tools)     | Editor tools, prefab manager, and content pipeline |
+| [`arcadia-demo`](https://github.com/arcadia-engine/arcadia-demo)       | Playable test world using the full engine stack |
+| [`arcadia-planning`](https://github.com/arcadia-engine/arcadia-planning) | Devlogs, roadmaps, system design docs, and all project planning |
+
+> 📁 *Note: `arcadia-docs` has been deprecated. All documentation now lives in `arcadia-planning`.*
 
 ---
 
 ## 🧭 Roadmap & Devlog
 
-- [📜 Master Roadmap](https://github.com/arcadia-engine/arcadia-planning/blob/main/ROADMAP.md)  
-- [🗂 Project Board](https://github.com/arcadia-engine/arcadia-planning/blob/main/project-board.md)  
-- [📝 Devlog](https://github.com/arcadia-engine/arcadia-planning/blob/main/devlog.md)
+- [📜 Master Roadmap](https://github.com/arcadia-engine/arcadia-planning/blob/main/milestones/roadmap-v0.1.md)  
+- [🗂 Project Planning Hub](https://github.com/arcadia-engine/arcadia-planning)  
+- [📝 Devlog Archive](https://github.com/arcadia-engine/arcadia-planning/tree/main/devlogs)
 
 ---
 
