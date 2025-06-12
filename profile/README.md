@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/216036172?s=400&u=ef8b0d2b4a503699e6fa51c8f17922a858dd9f3f&v=4" width="200" alt="Arcadia Engine Logo">
+</p>
+<h1 align="center">Arcadia Engine</h1>
+<p align="center"><em>Build systems. Shape worlds.</em></p>
+---
+
+
 # 🌀 Arcadia Engine
 
 > A modular 2D game engine and development toolkit for building multiplayer, tile-based games inspired by Tibia, Ultima Online, and Diablo—reborn for the modern developer.
