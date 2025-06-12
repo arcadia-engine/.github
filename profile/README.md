@@ -3,8 +3,8 @@
 </p>
 <h1 align="center">Arcadia Engine</h1>
 <p align="center"><em>Build systems. Shape worlds.</em></p>
----
 
+---
 
 # 🌀 Arcadia Engine
 
