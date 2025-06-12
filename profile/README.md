@@ -1,65 +1,50 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/216036172?s=400&u=ef8b0d2b4a503699e6fa51c8f17922a858dd9f3f&v=4" width="200" alt="Arcadia Engine Logo">
+  <img src="https://avatars.githubusercontent.com/u/216036172?s=400&u=ef8b0d2b4a503699e6fa51c8f17922a858dd9f3f&v=4" width="160" alt="Arcadia Engine Logo">
 </p>
+
 <h1 align="center">Arcadia Engine</h1>
 <p align="center"><em>Build systems. Shape worlds.</em></p>
 
 ---
 
-# 🌀 Arcadia Engine
+## 🎯 About
 
-> A modular 2D game engine and development toolkit for building multiplayer, tile-based games inspired by Tibia, Ultima Online, and Diablo—reborn for the modern developer.
+Arcadia Engine is a modular, open-source game engine built in Java.  
+It powers classic 2D tile-based multiplayer games with modern tooling, plugin architecture, and developer-first design.
 
----
-
-## 🎯 Purpose
-
-Arcadia Engine is a Java-powered platform designed to make building online RPGs and sandbox-style games both approachable and deeply extensible.  
-It is being developed as both a **portfolio centerpiece** and a serious open-source engine project.
-
-You can follow the roadmap, explore the modular repos, and track the journey from core systems to full multiplayer demos.
+Inspired by Tibia, Ultima Online, and Diablo—but focused on extensibility and clarity.
 
 ---
 
 ## 🧱 Modules
 
-| Repo                        | Purpose                                  |
-|-----------------------------|------------------------------------------|
-| [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)       | Core engine logic (ECS, tiles, animation, input)  
-| [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)   | Visual client with rendering, UI, camera control  
-| [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)   | Multiplayer server with sync, mob logic, events  
-| [`arcadia-tools`](https://github.com/arcadia-engine/arcadia-tools)     | Map editor, item builder, and developer toolkits  
-| [`arcadia-demo`](https://github.com/arcadia-engine/arcadia-demo)       | A fully playable demo world to showcase engine features  
-| [`arcadia-docs`](https://github.com/arcadia-engine/arcadia-docs)       | Developer documentation, setup guides, and changelogs  
+| Repo                        | Description                                      |
+|-----------------------------|--------------------------------------------------|
+| [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)       | Core ECS, tile logic, input handling, render loop  
+| [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)   | Visual game client + UI system  
+| [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)   | Multiplayer backend with state sync and events  
+| [`arcadia-tools`](https://github.com/arcadia-engine/arcadia-tools)     | Map editor, prefab manager, content builder  
+| [`arcadia-demo`](https://github.com/arcadia-engine/arcadia-demo)       | Playable demo world using the full engine stack  
+| [`arcadia-docs`](https://github.com/arcadia-engine/arcadia-docs)       | Dev guides, tutorials, and reference documentation  
+| [`arcadia-planning`](https://github.com/arcadia-engine/arcadia-planning) | Roadmap, devlog, project board, architecture drafts  
 
 ---
 
-## 📋 Project Status
+## 🧭 Roadmap & Devlog
 
-- 🚧 Engine architecture and planning underway
-- 🛠 First builds in progress (core, client, server)
-- 🗺 Demo world in pre-production
-- 🧪 Initial networking, UI, and ECS prototyping (2025 roadmap)
-- ✍️ Weekly devlog and updates coming soon
-
----
-
-## 🗂️ Planning & Roadmap
-
-📌 Central planning repo: [`arcadia-planning`](https://github.com/arcadia-engine/arcadia-planning)
-
-- [Master Roadmap](https://github.com/arcadia-engine/arcadia-planning/blob/main/ROADMAP.md)  
-- [Project Board](https://github.com/arcadia-engine/arcadia-planning/blob/main/project-board.md)  
-- [Devlog (coming soon)](https://github.com/arcadia-engine/arcadia-planning/blob/main/devlog.md)
+- [📜 Master Roadmap](https://github.com/arcadia-engine/arcadia-planning/blob/main/ROADMAP.md)  
+- [🗂 Project Board](https://github.com/arcadia-engine/arcadia-planning/blob/main/project-board.md)  
+- [📝 Devlog](https://github.com/arcadia-engine/arcadia-planning/blob/main/devlog.md)
 
 ---
 
 ## 👤 Maintainer
 
-Built by [@Hemerley](https://github.com/Hemerley) — Computer Science student, engine designer, and narrative systems developer.
+Developed by [@Hemerley](https://github.com/Hemerley)  
+Computer Science student · Systems developer · Narrative tools architect
 
 MIT Licensed · Java 17+ · Open-source
 
 ---
 
-> *"Build the systems you want to live in. Then invite others to explore."*
+> *"The world won’t build itself. I will."*
