@@ -20,22 +20,30 @@ Inspired by Tibia, Ultima Online, and Diablo—but focused on extensibility and 
 
 | Repo | Description |
 |------|-------------|
-| [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)       | Core ECS, tile logic, input handling, render loop |
-| [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)   | Visual game client and UI system |
-| [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)   | Server-authoritative multiplayer backend |
-| [`arcadia-tools`](https://github.com/arcadia-engine/arcadia-tools)     | Editor tools, prefab manager, and content pipeline |
-| [`arcadia-demo`](https://github.com/arcadia-engine/arcadia-demo)       | Playable test world using the full engine stack |
-| [`arcadia-planning`](https://github.com/arcadia-engine/arcadia-planning) | Devlogs, roadmaps, system design docs, and all project planning |
+| [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)       | ECS runtime, simulation loop, component-system design |
+| [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)   | UI layers, animations, screen composition, terminal/web clients |
+| [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)   | Authoritative multiplayer backend with entity sync and logic loop |
+| [`arcadia-net`](https://github.com/arcadia-engine/arcadia-net)         | Networking abstractions: connections, packets, and transport logic |
+| [`arcadia-tools`](https://github.com/arcadia-engine/arcadia-tools)     | Dev tools: map editor, prefab manager, debug console |
+| [`arcadia-demo`](https://github.com/arcadia-engine/arcadia-demo)       | Working demo using Arcadia Core + Lanterna stack |
+| [`arcadia-planning`](https://github.com/arcadia-engine/arcadia-planning) | Roadmaps, devlogs, design specs, and engine philosophy docs |
 
-> 📁 *Note: `arcadia-docs` has been deprecated. All documentation now lives in `arcadia-planning`.*
+> 📁 *Note: `arcadia-docs` is deprecated. Use `arcadia-planning` for all documentation.*
 
 ---
 
 ## 🧭 Roadmap & Devlog
 
-- [📜 Master Roadmap](https://github.com/arcadia-engine/arcadia-planning/blob/main/milestones/roadmap-v0.1.md)  
-- [🗂 Project Planning Hub](https://github.com/arcadia-engine/arcadia-planning)  
+- [📜 Master Roadmap](https://github.com/arcadia-engine/arcadia-planning/blob/main/milestones/roadmap-v0.2.md)  
+- [🗂 Planning Hub](https://github.com/arcadia-engine/arcadia-planning)  
 - [📝 Devlog Archive](https://github.com/arcadia-engine/arcadia-planning/tree/main/devlogs)
+
+---
+
+## 🔮 Philosophy
+
+> *“Simulation before sensation. Logic before light.”*  
+> Arcadia prioritizes runtime clarity, strong simulation models, and player-focused tooling—without locking you into a specific renderer or protocol.
 
 ---
 
@@ -45,7 +53,3 @@ Developed by [@Hemerley](https://github.com/Hemerley)
 Computer Science student · Systems developer · Narrative tools architect
 
 MIT Licensed · Java 17+ · Open-source
-
----
-
-> *"The world won’t build itself. I will."*
